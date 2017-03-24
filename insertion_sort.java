@@ -10,13 +10,13 @@ for (i=1;i<n;i++)
 key=arr[i];
 
 j=i-1;
-if(arr[j]>key){
+
 while(j>=0 && arr[j]>key){
 arr[j+1]=arr[j];
 j--;
 }
 arr[j+1]=key;
-}
+
 }
 for (i=0;i<n;i++){
 System.out.print(arr[i]+" ");
